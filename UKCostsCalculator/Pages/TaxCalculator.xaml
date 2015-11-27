@@ -12,7 +12,7 @@
                      Orientation="Vertical"
                      Spacing="15">
             <Label Text="Tax Calculator" />
-            <Entry Keyboard="Numeric" HorizontalOptions="Fill"/>
+            <Entry x:Name="AnnualInput" Keyboard="Numeric" HorizontalOptions="Fill"/>
             <Button x:Name="CalculateBtn" HorizontalOptions="Fill" Clicked="OnCalculateBtnClicked" Text="Calculate Tax"/>
         </StackLayout>
     </ContentPage.Content>
