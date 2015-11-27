@@ -17,7 +17,7 @@ namespace UKCostsCalculator
 		}
 
 		void OnTaxBtnClicked(object sender, EventArgs args) {
-			DisplayAlert ("Tax Calculation", "Tax Calculation has not yet been implemented", "OK");
+			Navigation.PushAsync(new TaxCalculator()); 
 		}
 	}
 }

@@ -11,6 +11,10 @@ namespace UKCostsCalculator
 		{
 			InitializeComponent ();
 		}
+
+		void OnCalculateBtnClicked(object sender, EventArgs args) {
+			DisplayAlert ("Tax Calculation", "Tax Calculation has not yet been implemented", "OK");
+		}
 	}
 }
 

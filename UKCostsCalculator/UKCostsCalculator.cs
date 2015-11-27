@@ -9,7 +9,7 @@ namespace UKCostsCalculator
 		public App ()
 		{
 			// The root page of your application
-			MainPage = new UKCostsCalculator.MainPage ();
+			MainPage = new NavigationPage(new UKCostsCalculator.MainPage ());
 		}
 
 		protected override void OnStart ()
